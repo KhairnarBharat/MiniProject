@@ -111,3 +111,4 @@ C:\Users\Bharat\Source\Repos\MiniProject\SharingEconomyPlatform\SharingEconomyPl
 C:\Users\Bharat\Source\Repos\MiniProject\SharingEconomyPlatform\SharingEconomyPlatform\obj\Debug\SharingEconomyPlatform.Migrations.initial.resources
 C:\Users\Bharat\Source\Repos\MiniProject\SharingEconomyPlatform\SharingEconomyPlatform\obj\Debug\SharingEconomyPlatform.Migrations.firstNameAdded.resources
 C:\Users\Bharat\Source\Repos\MiniProject\SharingEconomyPlatform\SharingEconomyPlatform\obj\Debug\SharingEconomyPlatform.Migrations.AddedAllData.resources
+C:\Users\Bharat\Source\Repos\MiniProject\SharingEconomyPlatform\SharingEconomyPlatform\obj\Debug\SharingEconomyPlatform.Migrations.AddedCategoryTable.resources

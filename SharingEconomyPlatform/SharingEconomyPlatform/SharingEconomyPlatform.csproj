@@ -49,6 +49,8 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -189,8 +191,14 @@
     <Compile Include="Migrations\202104161258070_AddedAllData.Designer.cs">
       <DependentUpon>202104161258070_AddedAllData.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202104190429470_AddedCategoryTable.cs" />
+    <Compile Include="Migrations\202104190429470_AddedCategoryTable.Designer.cs">
+      <DependentUpon>202104190429470_AddedCategoryTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\DataTables.cs" />
+    <Compile Include="Models\GeneralViewModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Magic.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -257,6 +265,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Home\Category.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -284,6 +293,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202104161258070_AddedAllData.resx">
       <DependentUpon>202104161258070_AddedAllData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104190429470_AddedCategoryTable.resx">
+      <DependentUpon>202104190429470_AddedCategoryTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
